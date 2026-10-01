@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Jaliscope
-Exec="/home/rustedpipe/Downloads/jaliscope binaries/Jaliscope.AppImage"
+Exec=jaliscope
 Icon=jaliscope
 Type=Application
 Categories=AudioVideo;Audio;
