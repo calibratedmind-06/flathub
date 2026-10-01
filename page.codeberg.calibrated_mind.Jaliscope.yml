@@ -1,15 +1,15 @@
-app-id: page.codeberg.Calibrated_Mind.Jaliscope
+app-id: page.codeberg.calibrated_mind.Jaliscope
 runtime: org.freedesktop.Platform
 runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: jaliscope
 
 finish-args:
+  - --share=ipc
   - --socket=pulseaudio
   - --socket=wayland
   - --socket=fallback-x11
   - --device=dri
-  - --talk-name=org.freedesktop.portal.FileChooser
 
 modules:
 
@@ -62,6 +62,7 @@ modules:
       - type: git
         url: https://codeberg.org/Calibrated_Mind/Jaliscope.git
         tag: release-1.0.2v
+        commit: d00b0960e69cf3d739a70ce751c10885474d37be
       - type: file
         path: jaliscope.desktop
       - type: file
