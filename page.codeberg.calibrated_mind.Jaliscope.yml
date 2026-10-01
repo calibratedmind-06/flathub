@@ -55,17 +55,17 @@ modules:
     post-install:
       - install -Dm755 Jaliscope /app/bin/jaliscope
       - cp -r Data /app/bin/
-      - install -Dm644 jaliscope.desktop /app/share/applications/page.codeberg.Calibrated_Mind.Jaliscope.desktop
-      - install -Dm644 metainfo.xml /app/share/metainfo/page.codeberg.Calibrated_Mind.Jaliscope.metainfo.xml
-      - install -Dm644 Jaliscope.svg /app/share/icons/hicolor/scalable/apps/page.codeberg.Calibrated_Mind.Jaliscope.svg
+      - install -Dm644 page.codeberg.calibrated_mind.Jaliscope.desktop /app/share/applications/page.codeberg.calibrated_mind.Jaliscope.desktop
+      - install -Dm644 page.codeberg.calibrated_mind.Jaliscope.metainfo.xml /app/share/metainfo/page.codeberg.calibrated_mind.Jaliscope.metainfo.xml
+      - install -Dm644 page.codeberg.calibrated_mind.Jaliscope.svg /app/share/icons/hicolor/scalable/apps/page.codeberg.calibrated_mind.Jaliscope.svg
     sources:
       - type: git
         url: https://codeberg.org/Calibrated_Mind/Jaliscope.git
         tag: release-1.0.2v
         commit: d00b0960e69cf3d739a70ce751c10885474d37be
       - type: file
-        path: jaliscope.desktop
+        path: page.codeberg.calibrated_mind.Jaliscope.desktop
       - type: file
-        path: metainfo.xml
+        path: page.codeberg.calibrated_mind.Jaliscope.metainfo.xml
       - type: file
-        path: Jaliscope.svg
+        path: page.codeberg.calibrated_mind.Jaliscope.svg
