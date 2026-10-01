@@ -23,7 +23,7 @@ modules:
     sources:
       - type: archive
         url: https://github.com/libsdl-org/SDL/releases/download/release-3.4.14/SDL3-3.4.14.zip
-        sha256: b07ef7b5431cea0cb2ea9613e2d8410f9ef37f5627f82f1733086cb00aa2b4b4 # Ensure exact sha256 or let flatpak pre-download
+        sha256: b07ef7b5431cea0cb2ea9613e2d8410f9ef37f5627f82f1733086cb00aa2b4b4 
 
 
   - name: sdl3_image
@@ -60,7 +60,7 @@ modules:
       - install -Dm644 Jaliscope.svg /app/share/icons/hicolor/scalable/apps/page.codeberg.Calibrated_Mind.Jaliscope.svg
     sources:
       - type: git
-        url: ssh://git@codeberg.org/Calibrated_Mind/Jaliscope.git
+        url: https://codeberg.org/Calibrated_Mind/Jaliscope.git
         tag: release-1.0.2v
       - type: file
         path: jaliscope.desktop
