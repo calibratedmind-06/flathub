@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>page.codeberg.Calibrated_Mind.Jaliscope</id>
+  <id>page.codeberg.CalibratedMind.Jaliscope</id>
 
   <name>Jaliscope</name>
   <summary>A FOSS vectorscope program built for accuracy and customizability</summary>
@@ -8,7 +8,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-only</project_license>
 
-  <developer id="page.codeberg.calibrated_mind">
+  <developer id="page.codeberg.calibratedmind">
     <name>Calibrated Mind</name>
   </developer>
 
@@ -65,23 +65,23 @@
     </p>
   </description>
 
-  <launchable type="desktop-id">page.codeberg.Calibrated_Mind.Jaliscope.desktop</launchable>
+  <launchable type="desktop-id">page.codeberg.calibratedmind.Jaliscope.desktop</launchable>
 
   <screenshots>
     <screenshot type="default">
-      <image>https://codeberg.org/Calibrated_Mind/Jaliscope/raw/branch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg</image>
+      <image>https://codeberg.org/CalibratedMind/Jaliscope/raw/branch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg</image>
     </screenshot>
     <screenshot>
-      <image>https://codeberg.org/Calibrated_Mind/Jaliscope/raw/branch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg</image>
+      <image>https://codeberg.org/CalibratedMind/Jaliscope/raw/branch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg</image>
     </screenshot>
     <screenshot>
-      <image>https://codeberg.org/Calibrated_Mind/Jaliscope/raw/branch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg</image>
+      <image>https://codeberg.org/CalibratedMind/Jaliscope/raw/branch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg</image>
     </screenshot>
   </screenshots>
 
-  <url type="homepage">https://codeberg.org/Calibrated_Mind/Jaliscope</url>
-  <url type="bugtracker">https://codeberg.org/Calibrated_Mind/Jaliscope/issues</url>
-  <url type="vcs-browser">https://codeberg.org/Calibrated_Mind/Jaliscope</url>
+  <url type="homepage">https://codeberg.org/CalibratedMind/Jaliscope</url>
+  <url type="bugtracker">https://codeberg.org/CalibratedMind/Jaliscope/issues</url>
+  <url type="vcs-browser">https://codeberg.org/CalibratedMind/Jaliscope</url>
 
   <categories>
     <category>AudioVideo</category>
