@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>page.codeberg.Calibrated_Mind.Jaliscope</id>
+
+  <name>Jaliscope</name>
+  <summary>A FOSS vectorscope and audio visualizer program</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+
+  <developer id="page.codeberg.Calibrated_Mind">
+    <name>Calibrated Mind</name>
+  </developer>
+
+  <description>
+    <p>
+      Jaliscope is a free and open-source vectorscope and Lissajous plot audio visualizer centered around performance, accuracy, and customizability.
+    </p>
+    <p>
+      It converts audio files (FLAC, MP3, WAV) into lines rendered on screen in real time. Features include variable frame line rendering, rotation with stroboscopic effects, custom color themes, panning, scaling, and pitch/speed adjustments down to the millisecond.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">page.codeberg.Calibrated_Mind.Jaliscope.desktop</launchable>
+
+  <url type="homepage">https://codeberg.org/Calibrated_Mind/Jaliscope</url>
+  <url type="bugtracker">https://codeberg.org/Calibrated_Mind/Jaliscope/issues</url>
+  <url type="vcs-browser">https://codeberg.org/Calibrated_Mind/Jaliscope</url>
+
+  <categories>
+    <category>AudioVideo</category>
+    <category>Audio</category>
+    <category>Music</category>
+  </categories>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="1.0.2v" date="2026-09-29">
+      <description>
+        <p>Release version 1.0.2v.</p>
+      </description>
+    </release>
+  </releases>
+</component>
